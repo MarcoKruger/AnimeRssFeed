@@ -9,6 +9,26 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        
+            <Pivot x:Name="animeFeed" Title="Anime Feed" HorizontalAlignment="Center">
+                <PivotItem Header="Pivot Item 1">
+                    <!--Pivot content goes here-->
+                    <TextBlock Text="All Nyaa.si Feed." />
+                </PivotItem>
+                <PivotItem Header="Pivot Item 2">
+                    <!--Pivot content goes here-->
+                    <TextBlock Text="All HorribleSubs Feed." />
+                </PivotItem>
+                <PivotItem Header="Pivot Item 3">
+                    <!--Pivot content goes here-->
+                    <TextBlock Text="All My Anime Feed." />
+                </PivotItem>
+            </Pivot>
+        
+        
+            
+                <TextBlock Text="Empty" x:Name="ConsoleOutPut" TextWrapping="NoWrap" Height="100" />
+            
+        
     </Grid>
 </Page>
